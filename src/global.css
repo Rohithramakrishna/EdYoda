@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Hind&family=Lato&family=Montserrat:wght@300;400;800&family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Hind&family=Lato&family=Montserrat:wght@300;400;800&family=Raleway:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Hind&family=Lato&family=Montserrat:wght@300;400;800&family=Raleway:wght@300&family=Roboto:wght@100&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 72px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  flex-basis: 15%;
+  /* background-color: aqua; */
+}
+.logo p {
+  padding-left: 106.5px;
+  padding-top: 13.5px;
+  padding-bottom: 13.5px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0.03em;
+  color: #0048ff;
+}
+
+/* ............................................................... */
+.menu {
+  flex-basis: 50%;
+  /* background-color: blueviolet; */
+}
+.menu button {
+  width: 61px;
+  height: 19px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  margin-left: 34px;
+  width: 120px;
+  border: none;
+  background-color: #ffffff;
+
+  color: #000000;
+  position: relative;
+}
+.menu button span {
+  position: absolute;
+  left: 100px;
+  top: -10px;
+}
+/* ................................................... */
+
+.Auth {
+  position: relative;
+  flex-basis: 30%;
+  /* background-color: aquamarine; */
+}
+.Auth span {
+  position: absolute;
+  top: 10px;
+}
+.Auth .login {
+  border: none;
+  background-color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 70px;
+}
+.Auth .joinnow {
+  margin-left: 70px;
+  /* width: 100px; */
+  background: linear-gradient(266.79deg, #0048ff 4.63%, #0096ff 100%);
+  padding: 10px 42px;
+  border-radius: 52px;
+  border: none;
+  color: #ffffff;
+}
+/* ................................................................. */
+
+.mainPage {
+  display: flex;
+  width: 100%;
+  height: 130vh;
+  background: linear-gradient(266.79deg, #060c1a 4.63%, #101e3b 100%);
+}
+.leftPage {
+  flex-basis: 50%;
+  /* background-color: aquamarine; */
+  position: relative;
+}
+.leftPage p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 125%;
+  /* identical to box height, or 70px */
+
+  align-items: center;
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+  position: absolute;
+  top: 40px;
+  left: 140px;
+}
+.leftPage p .rupee {
+  font-family: "roboto";
+  font-size: 44px;
+  text-decoration: line-through red;
+}
+.leftPage p .money {
+  font-family: "roboto";
+  font-size: 44px;
+  color: #0048ff;
+}
+.leftPage .courses {
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 900;
+  position: absolute;
+  top: 155px;
+  left: 140px;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  display: flex;
+  color: #ffffff;
+}
+
+.leftPage .content {
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 900;
+  position: absolute;
+  top: 225px;
+  left: 140px;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  display: flex;
+  color: #ffffff;
+}
+.leftPage .webinar {
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 900;
+  position: absolute;
+  top: 295px;
+  left: 140px;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  display: flex;
+  color: #ffffff;
+}
+.leftPage .schlorship {
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 900;
+  position: absolute;
+  top: 365px;
+  left: 140px;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  display: flex;
+  color: #ffffff;
+}
+.leftPage .adfree {
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 900;
+  position: absolute;
+  top: 435px;
+  left: 140px;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  display: flex;
+  color: #ffffff;
+}
+.sametext {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #0048ff;
+  font-weight: bold;
+}
+
+/* .................................................................................................. */
+
+.rightPage {
+  flex-basis: 50%;
+  width: 100%;
+  /* background-color: #0096ff; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightPage .formPage {
+  width: 60%;
+  height: 120vh;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.step span {
+  font-family: "roboto";
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.circle {
+  background-color: blue;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.subscription-plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscription-plan h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 00;
+  font-size: 18px;
+  line-height: 125.3%;
+}
+
+/* ......................................................................... */
+
+.subscription-plan-box {
+  /* border: 1px solid #ccc; */
+  width: 100%;
+  padding: 10px;
+}
+
+.plan {
+  margin-left: 20px;
+  width: 90%;
+  height: 9vh;
+  border: 1px solid #a3dcb3;
+  margin-top: 3px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+.subscription-plan-box .planExpire {
+  border: 1px solid #bebebe;
+  background-color: #e7e7e7;
+}
+.plan label {
+  font-size: 15px;
+  font-weight: bold;
+}
+.plan p {
+  font-size: 12px;
+  margin-left: 75px;
+}
+
+.plan p .planofferp {
+  font-size: 15px;
+  font-weight: bold;
+}
+.plan p .monthOffer {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.plan input[type="radio"] {
+  display: none;
+}
+
+.plan label {
+  position: relative;
+  padding-left: 30px;
+}
+
+.plan label:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #ccc;
+}
+
+.plan input[type="radio"]:checked + label:before {
+  background-color: green;
+  border-color: green;
+}
+
+.plan label:after {
+  content: "✔";
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.plan input[type="radio"]:checked + label:after {
+  display: block;
+}
+
+.plan:hover {
+  background-color: lightgreen;
+}
+
+.plan.selected {
+  background-color: lightgreen;
+  border: 2px solid green;
+}
+
+.cancel-btn,
+.proceed-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* .............................................................................. */
+.sub-fee {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5px;
+}
+.sub-fee h4 {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+.limited {
+  width: 90%;
+  height: 9vh;
+  border-radius: 5px;
+  border: 1px solid #de4313;
+  background-color: #fec163;
+  margin: 10px auto;
+  padding: 8px 20px;
+  display: flex;
+}
+.limited p {
+  margin-top: 3px;
+  margin-left: -3px;
+  font-size: 10px;
+}
+.limited h3 {
+  margin-left: 100px;
+  font-style: 12px;
+  font-size: 15px;
+}
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.total p {
+  font-size: 14px;
+  font-weight: bolder;
+}
+.total p span {
+  font-size: 9px;
+  font-weight: 400;
+}
+.total h2 {
+  margin-left: -20px;
+  font-size: 20px;
+}
+.buttons {
+  width: 90%;
+  height: 10vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 20px auto;
+}
+.buttons .btn1 {
+  padding: 15px 67px;
+
+  border: 1px solid #de4313;
+  background-color: #fff;
+  font-weight: 700;
+  color: #de4313;
+  font-size: 10px;
+}
+.buttons .btn2 {
+  padding: 15px 42px;
+  border: none;
+  font-weight: 700;
+  background-color: #47ba68;
+  color: #ffffff;
+  font-size: 10px;
+}
+.img1 {
+  height: 10vh;
+  width: 100%;
+}
+.img1 img {
+  height: 40px;
+  width: 100px;
+  margin-left: 23px;
+}
